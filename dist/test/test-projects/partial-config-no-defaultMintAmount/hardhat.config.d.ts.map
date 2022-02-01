@@ -1,0 +1,1 @@
+{"version":3,"file":"hardhat.config.d.ts","sourceRoot":"","sources":["../../../../test/test-projects/partial-config-no-defaultMintAmount/hardhat.config.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,iBAAiB,EAAE,MAAM,eAAe,CAAC;AAElD,OAAO,oBAAoB,CAAC;AAE5B,QAAA,MAAM,MAAM,EAAE,iBAcb,CAAC;AAEF,eAAe,MAAM,CAAC"}
