@@ -25,7 +25,7 @@ export async function deployTokens(_: any, hre: HardhatRuntimeEnvironment) {
     const contractFactory = new ethers.ContractFactory(
         ERC20FakeFactory.abi,
         ERC20FakeFactory.bytecode,
-		accounts[0]
+        accounts[0]
     );
 
     const spinner = ora();
@@ -66,4 +66,5 @@ export async function deployTokens(_: any, hre: HardhatRuntimeEnvironment) {
     spinner.info(`Tokens Deployed`);
     const results = getTaskResultsDisplay(taskResults);
     console.log(results);
+    return taskResults;
 }
