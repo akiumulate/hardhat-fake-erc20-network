@@ -38,8 +38,7 @@
     "hardhat": "^2.6.4",
     "isomorphic-fetch": "^3.0.0",
     "mute": "^2.0.6",
-    "ora": "^5.4.1",
-    "tsc": "^2.0.4"
+    "ora": "^5.4.1"
   },
   "devDependencies": {
     "@openzeppelin/contracts": "^4.3.2",
