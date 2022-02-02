@@ -23,7 +23,7 @@
     "test": "mocha --exit --recursive 'test/**/*.test.ts'",
     "build": "tsc",
     "watch": "tsc -w",
-    "prepare": "husky install"
+    "prepare": "husky install && npm run build"
   },
   "files": [
     "dist/src/",
